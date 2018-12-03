@@ -1,6 +1,6 @@
 {
   "name": "bs4-flex-helper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Helper to join BS4 flex classes with responsive breakpoints support",
   "main": "index.js",
   "scripts": {
