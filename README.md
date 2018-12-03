@@ -28,7 +28,6 @@ Main function accept 2 arguments:
 - object contains properties to set
 - boolean to insert base flex class before (d-flex)
 
-Object properties:
 |property|values|description|
 |---|---|---|
 |dir|'sm' or ['xs', 'sm', ...]|generate classes for flex-direction property|
