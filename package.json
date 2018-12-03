@@ -1,0 +1,29 @@
+{
+  "name": "bs4-flex-helper",
+  "version": "1.0.0",
+  "description": "Helper to join BS4 flex classes with responsive breakpoints support",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest"
+  },
+  "keywords": [
+    "Bootstrap 4",
+    "flexbox"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "jest": "^23.6.0",
+    "regenerator-runtime": "^0.13.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}

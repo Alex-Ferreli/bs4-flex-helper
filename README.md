@@ -29,11 +29,13 @@ Main function accept 2 arguments:
 - boolean to insert base flex class before (d-flex)
 
 Object properties:
-|property|default|values|description|
-|---|---|---|---|
-|dir|''|'sm' or ['xs', 'sm', ...]|generate classes for flex-direction property|
-|jc|''|'sm' or ['xs', 'sm', ...]|generate classes for justify-content property|
-|ai|''|'sm' or ['xs', 'sm', ...]|generate classes for align-items property|
+|property|values|description|
+|---|---|---|
+|dir|'sm' or ['xs', 'sm', ...]|generate classes for flex-direction property|
+|jc|'sm' or ['xs', 'sm', ...]|generate classes for justify-content property|
+|ai|'sm' or ['xs', 'sm', ...]|generate classes for align-items property|
+|ac|'sm' or ['xs', 'sm', ...]|generate classes for align-content property|
+|wrap|'sm' or ['xs', 'sm', ...]|generate classes for wrap property|
 
 ### With React
 ```jsx
