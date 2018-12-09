@@ -24,6 +24,6 @@
     "regenerator-runtime": "^0.13.1"
   },
   "dependencies": {
-    "lodash": "^4.17.11"
+    "array-back": "^3.0.1"
   }
 }

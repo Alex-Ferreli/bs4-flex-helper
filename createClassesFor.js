@@ -1,13 +1,13 @@
-import { isArray } from 'lodash';
+import arrayify from 'array-back';
 
 const bp = ['', '-sm', '-md', '-lg', '-xl'];
 
 export default (property, values) => {
-  if (!values) return '';
+  const arrayValues = arrayify(values);
 
-  if (!isArray(values)) return `${property}-${values}`;
+  if (!arrayValues.length) return '';
 
-  return values.reduce((acc, value, i) => {
+  return arrayValues.reduce((acc, value, i) => {
     if (!value) return acc;
 
     return [...acc, `${property}${bp[i]}-${value}`];
