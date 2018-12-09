@@ -28,15 +28,16 @@ Main function accept 2 arguments:
 - object contains properties to set
 - boolean to insert base flex class before (d-flex)
 
-|property|values|description|
-|---|---|---|
-|dir|'sm' or ['xs', 'sm', ...]|generate classes for flex-direction property|
-|jc|'sm' or ['xs', 'sm', ...]|generate classes for justify-content property|
-|ai|'sm' or ['xs', 'sm', ...]|generate classes for align-items property|
-|ac|'sm' or ['xs', 'sm', ...]|generate classes for align-content property|
-|wrap|'sm' or ['xs', 'sm', ...]|generate classes for wrap property|
+|property|type|values|default|description|
+|---|---|---|---|---|
+|dir|string or array|'sm' or ['xs', 'sm', ...]||flex-direction property|
+|jc|string or array|'sm' or ['xs', 'sm', ...]||justify-content property|
+|ai|string or array|'sm' or ['xs', 'sm', ...]||align-items property|
+|ac|string or array|'sm' or ['xs', 'sm', ...]||align-content property|
+|wrap|string or array|'sm' or ['xs', 'sm', ...]||wrap property|
+|inline|boolean|true or false|false|use inline-flex or flex|
 
-### With React
+### Example with React
 ```jsx
 import React from 'react';
 import bs4FlexHelper from 'bs4-flex-helper';
