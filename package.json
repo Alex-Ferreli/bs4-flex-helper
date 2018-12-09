@@ -6,11 +6,19 @@
   "scripts": {
     "test": "./node_modules/.bin/jest"
   },
+  "bugs": "https://github.com/Alex-Ferreli/bs4-flex-helper/issues",
+  "author": {
+    "name" : "Alex Ferreli",
+    "email" : "ferreli.ale@gmail.com"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/Alex-Ferreli/bs4-flex-helper"
+  },
   "keywords": [
     "Bootstrap 4",
     "flexbox"
   ],
-  "author": "",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.2.0",
