@@ -1,6 +1,6 @@
 {
   "name": "bs4-flex-helper",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Helper to join BS4 flex classes with responsive breakpoints support",
   "main": "index.js",
   "scripts": {
@@ -8,12 +8,12 @@
   },
   "bugs": "https://github.com/Alex-Ferreli/bs4-flex-helper/issues",
   "author": {
-    "name" : "Alex Ferreli",
-    "email" : "ferreli.ale@gmail.com"
+    "name": "Alex Ferreli",
+    "email": "ferreli.ale@gmail.com"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/Alex-Ferreli/bs4-flex-helper"
+    "type": "git",
+    "url": "https://github.com/Alex-Ferreli/bs4-flex-helper"
   },
   "keywords": [
     "Bootstrap 4",
