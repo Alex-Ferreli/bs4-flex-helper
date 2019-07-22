@@ -21,17 +21,17 @@
   ],
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.2.0",
-    "@babel/preset-env": "^7.2.0",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
     "babel-core": "^7.0.0-bridge.0",
-    "babel-jest": "^23.6.0",
-    "eslint": "^5.10.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "jest": "^23.6.0",
-    "regenerator-runtime": "^0.13.1"
+    "babel-jest": "^24.8.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "jest": "^24.8.0",
+    "regenerator-runtime": "^0.13.3"
   },
   "dependencies": {
-    "array-back": "^3.0.1"
+    "array-back": "^3.1.0"
   }
 }
